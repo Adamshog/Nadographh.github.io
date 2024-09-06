@@ -15,6 +15,10 @@
 }
 /*** Spinner End ***/
 
+.yellow{
+    color: orangered;
+}
+
 .back-to-top {
     position: fixed;
     right: 30px;
