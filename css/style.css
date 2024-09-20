@@ -19,7 +19,7 @@
     color: orangered;
 }
 .o-om{
-    color: #DDDDDD;
+    color: orangered;
 }
 .o-mo
 
@@ -89,7 +89,7 @@
 
 .btn.btn-light:hover {
     box-shadow: inset 300px 0 0 0 var(--bs-primary);
-    
+
     /***color: var(--bs-light) !important;***/
 }
 
