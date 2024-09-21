@@ -188,7 +188,7 @@
 }
 
 .sticky-top.navbar-light .navbar-brand h1 {
-    color: var(--bs-primary);
+    color: var(--bs-orenged);
 }
 
 .navbar-light .navbar-brand img {
@@ -249,8 +249,7 @@
     .navbar.navbar-expand-lg .navbar-toggler {
         padding: 10px 20px;
         border: 1px solid var(--bs-primary);
-        color: #f76815;
-        /***color: var(--bs-primary);***/
+        color: var(--bs-primary);
     }
 
     .navbar-light .navbar-collapse {
