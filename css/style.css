@@ -19,7 +19,7 @@
     color: orangered;
 }
 .o-om{
-    color: rgb(43, 41, 41);
+    color: rgb(202, 134, 78);
 }
 .o-mo
 
@@ -328,7 +328,7 @@
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 50px;
     background-size: 60% 60%;
-    background-color: #f19035;
+ 
     
 }
 
@@ -343,7 +343,7 @@
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 0;
     background-size: 60% 60%;
-    background-color: #f19035;
+
 
 }
 
@@ -364,7 +364,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    background-color: #f19035;
+    
 }
 
 .carousel-header .carousel-inner .carousel-item .carousel-caption  {
