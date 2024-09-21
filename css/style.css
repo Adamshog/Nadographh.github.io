@@ -315,6 +315,7 @@
 .carousel-header .carousel-control-prev,
 .carousel-header .carousel-control-next {
     background: transparent;
+    background-color: #e96c07;
 }
 
 .carousel-header .carousel-control-prev .carousel-control-prev-icon {
