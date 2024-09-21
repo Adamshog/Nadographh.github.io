@@ -309,6 +309,10 @@
     .navbar-light .navbar-nav .nav-link.nav-contact::before {
         display: none;
     }
+    .col-lg-8 {
+        background-color: #f19035;
+
+    }
 }
 
 /*** Carousel Hero Header Start ***/
