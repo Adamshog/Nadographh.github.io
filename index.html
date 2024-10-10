@@ -32,11 +32,14 @@
             /* Define the pulsing keyframes */
             @keyframes pulsing {
                 0% {
-                    box-shadow: 0 0 0 0 rgba(0, 255, 170, 0.7);
-                }
-                100% {
-                    box-shadow: 0 0 30px 30px rgba(0, 255, 170, 0);
-                }
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+            }
+            70% {
+                box-shadow: 0 0 0 20px rgba(37, 211, 102, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+            }
             }
     
             /* Style the WhatsApp icon */
@@ -46,6 +49,7 @@
                 padding-right: 20px;
                 margin-left: 100px;
                 animation: pulsing 2s infinite;
+                border-radius: 50px;
             }
         </style>
     </head>
