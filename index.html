@@ -29,32 +29,23 @@
         <link href="css/style.css" rel="stylesheet">
 
         <style>
-            /* Keyframes for pulsing animation */
-            @keyframes pulse {
+            /* Define the pulsing keyframes */
+            @keyframes pulsing {
                 0% {
-                    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
-                }
-                70% {
-                    box-shadow: 0 0 0 20px rgba(37, 211, 102, 0);
+                    box-shadow: 0 0 0 0 rgba(0, 255, 170, 0.7);
                 }
                 100% {
-                    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+                    box-shadow: 0 0 30px 30px rgba(0, 255, 170, 0);
                 }
             }
     
-            /* Button styling */
-            ._blank {
-                background-color: #25D366;
-                color: white;
-                border: none;
-                padding: 15px 30px;
-                font-size: 16px;
-                border-radius: 50px;
-                cursor: pointer;
-                text-decoration: none;
-                display: inline-block;
-                position: relative;
-                animation: pulse 2s infinite;
+            /* Style the WhatsApp icon */
+            .whatsapp-icon {
+                font-size: 48px;
+                color: rgb(0, 255, 170);
+                padding-right: 20px;
+                margin-left: 100px;
+                animation: pulsing 2s infinite;
             }
         </style>
     </head>
@@ -108,11 +99,9 @@
                     <h2 class="m-0"><img src="img/logo.jpg" alts="logo">  Nado<b class="o-om">Grapah</b></h2>
                     <!-- <img src="img/logo.png" alts="Logo"> -->
                 </a>
-                <a target="_blank" href="https://wa.me/send?phone=256774203252&text=welcome to NadoGraphUganda"><i class="fab fa-whatsapp fw-normal" style="font-size:48px;color:rgb(0, 255, 170); padding-right: 20px; margin-left: 100px;" style="@keyframes pulsing{
-                    to{
-                        box-shadow: 0 0 0 0 30px rgba (232, 76, 61, 0);
-                    }
-                }"></i></a>
+                <a target="_blank" href="https://wa.me/256774203252?text=Welcome%20to%20NadoGraphUganda">
+                    <i class="fab fa-whatsapp fw-normal whatsapp-icon"></i>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
                 </button>
